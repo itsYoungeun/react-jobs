@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../assets/images/logo.png'
 
 const Navbar = () => {
   return (
@@ -12,7 +13,7 @@ const Navbar = () => {
                 <a class="flex flex-shrink-0 items-center mr-4" href="/index.html">
                 <img
                     class="h-10 w-auto"
-                    src="images/logo.png"
+                    src={logo}
                     alt="React Jobs"
                 />
                 <span 
@@ -27,19 +28,19 @@ const Navbar = () => {
                     href="/index.html"
                     class="text-white bg-black hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
                     >
-                    Home
+                        Home
                     </a>
                     <a
                     href="/jobs.html"
                     class="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
                     >
-                    Jobs
+                        Jobs
                     </a>
                     <a
                     href="/add-job.html"
                     class="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
                     >
-                    Add Job
+                        Add Job
                     </a>
                 </div>
                 </div>
