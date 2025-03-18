@@ -83,6 +83,20 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "id": "c206",
+      "title": "Test Job 1",
+      "type": "Remote",
+      "location": "Remote",
+      "description": "abcdefgh",
+      "salary": "$70K - 80K",
+      "company": {
+        "name": "abc",
+        "description": "abcdefghijk",
+        "contactEmail": "contact@randomintegrations.com",
+        "contactPhone": ""
+      }
     }
   ]
 }
