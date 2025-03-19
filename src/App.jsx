@@ -58,3 +58,8 @@ const App = () => {
 };
 
 export default App
+
+// 'npm run build' for deployment
+// will create new folder called dist, which is folder for production
+// 'npm run preview' to see the webpage before deployment
+// keep in mind if you deploy it will not show the jobs because of json server
